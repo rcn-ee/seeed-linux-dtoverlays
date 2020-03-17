@@ -8,7 +8,7 @@ if [ -f .builddir ] ; then
 	fi
 
 	#https://github.com/Seeed-Studio/seeed-linux-dtverlays
-	git clone https://github.com/Seeed-Studio/seeed-linux-dtverlays ./src --depth=1
+	git clone https://github.com/Seeed-Studio/seeed-linux-dtoverlays ./src --depth=1
 
 	if [ "x${ARCH}" = "xarmv7l" ] ; then
 		CC=""
