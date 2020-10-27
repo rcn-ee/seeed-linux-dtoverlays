@@ -23,7 +23,7 @@ if [ -f .builddir ] ; then
 		fi
 	fi
 
-	SEEED_MODULES=('adxl34x' 'bme280' 'e-ink' 'grove-button' 'grove-led' 'gt9xx' 'hcsr04' 'hd44780' 'lis3lv02d' 'mcp25xxfd' 'mpr121' 'p9813' 'seeed-voicecard' 'sht3x' 'vl53l0x')
+	SEEED_MODULES=('adxl34x' 'bme280' 'CAN-HAT' 'e-ink' 'grove-button' 'grove-led' 'gt9xx' 'hcsr04' 'hd44780' 'lis3lv02d' 'mpr121' 'p9813' 'seeed-voicecard' 'sht3x' 'vl53l0x')
 	for module in "${SEEED_MODULES[@]}"; 
 	do
 		echo "Building: $module"
